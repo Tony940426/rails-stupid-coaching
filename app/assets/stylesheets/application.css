@@ -13,3 +13,32 @@
  *= require_tree .
  *= require_self
  */
+
+.container{
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.chat {
+  background-color: antiquewhite;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 10px;
+  border-left: 10px solid grey;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.4);
+}
+
+h1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-left: 15px;
+}
+
+p {
+
+  margin: 0px;
+}
+
+h4 {
+  font-size: 18px;
+  margin: 5px;
+}

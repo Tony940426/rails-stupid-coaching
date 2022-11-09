@@ -1,5 +1,14 @@
+<div class="container">
 <h1>Stuiped Coach</h1>
-<div class="chat">
-  <p><%= params[:question] %></p>
-  <p>-you</p>
+  <div class="chat">
+    <h4><%= @question.capitalize %></p></h4>
+    <p><i>-You</i></p>
+  </div>
+
+  <div class="chat">
+    <h4><%= @answer.capitalize %></h4>
+    <p><i>-Coach</i></p>
+  </div>
+
+<%= link_to("Ask new question!", ask_path)%>
 </div>
