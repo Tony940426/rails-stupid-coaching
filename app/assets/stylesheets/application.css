@@ -14,11 +14,6 @@
  *= require_self
  */
 
-.container{
-  width: 1000px;
-  margin: 0 auto;
-}
-
 .chat {
   background-color: antiquewhite;
   border-radius: 5px;
